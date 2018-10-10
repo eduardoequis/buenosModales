@@ -1,0 +1,79 @@
+body {
+    background-color: lightgray;
+    font-family: 'Trebuchet MS';
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#consignas {
+    background-color: white;
+    width: 70%;
+    height: auto;
+    padding: 2%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.cajaTexto {
+    padding: 2%;
+}
+
+.cajaBoton {
+    text-align: center;
+}
+
+.cajaBoton button {
+    background-color: rebeccapurple;
+    padding: 20px;
+    font-size: 150%;
+    border-radius: 10px;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    border-top: 1px solid #b997f7;
+    color: white;
+
+}
+
+#modal {
+    width: 600px;
+    height: auto;
+    align-items: center;
+    background-color: white;
+    border-radius: 5%;
+    border: 2px;
+    padding: 2%;
+    border:solid;
+    border-color: #272727;
+    box-shadow: 10px 10px #272727;
+    margin:auto;
+    text-align:center;
+}
+
+.cerrado {
+    display: none;
+}
+
+#modal img {
+    width: 20%;
+}
+
+#modal h1 {
+    color: black;
+}
+
+#modal p {
+    font-size: 150%;
+    text-align: justify;
+}
+
+.espacio {
+    height: 30px;
+    display: block;
+}
